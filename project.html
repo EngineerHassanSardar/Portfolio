@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO meta -->
+  <title>Projects · Hassan Sardar Umarzai</title>
+  <meta name="description" content="Selected work by Hassan Sardar Umarzai — enterprise dashboards, mobile apps, travel platforms, government systems, and CMS platforms built with ASP.NET Core, .NET MAUI, Blazor, and SQL Server." />
+  <meta property="og:title" content="Projects · Hassan Sardar Umarzai" />
+  <meta property="og:description" content="Selected work by Hassan Sardar Umarzai — enterprise dashboards, mobile apps, travel platforms, government systems, and CMS platforms." />
+  <meta property="og:type" content="website" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600&family=JetBrains+Mono:wght@400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Shared stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== ANIMATED AMBIENT BACKGROUND ===== -->
+  <div class="ambient-bg" aria-hidden="true">
+    <span class="orb orb-1"></span>
+    <span class="orb orb-2"></span>
+    <span class="orb orb-3"></span>
+    <span class="grid-lines"></span>
+  </div>
+
+  <!-- ===== SHARED HEADER / STICKY NAVBAR ===== -->
+  <header class="navbar" id="navbar">
+    <div class="nav-inner container">
+      <a href="index.html" class="logo" aria-label="Homepage">HS</a>
+
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="navMenu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav-menu" id="navMenu" aria-label="Main navigation">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="aboutus.html" class="nav-link">About</a>
+        <a href="experience.html" class="nav-link">Experience</a>
+        <a href="skills.html" class="nav-link">Skills</a>
+        <a href="project.html" class="nav-link active">Projects</a>
+        <a href="company.html" class="nav-link">Company</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+        <a href="contact.html" class="btn btn-sm btn-primary nav-cta">Let's Talk</a>
+      </nav>
+
+      <div class="scroll-progress" id="scrollProgress"></div>
+    </div>
+  </header>
+
+  <!-- ===== PROJECTS PAGE CONTENT ===== -->
+  <main>
+
+    <!-- HERO -->
+    <section class="projects-hero container">
+      <div class="projects-hero-inner">
+        <span class="eyebrow reveal slide-up">Portfolio</span>
+        <h1 class="projects-heading reveal slide-up" style="transition-delay:0.08s">
+          Selected <span class="accent-blue">work</span>
+        </h1>
+        <p class="projects-intro reveal slide-up" style="transition-delay:0.16s">
+          A collection of projects across enterprise, mobile, travel, government, content
+          management, and education — each built around real workflows, clean
+          architecture, and interfaces that feel considered.
+        </p>
+
+        <!-- Gmail pill -->
+        <a href="mailto:engrhassansardarumarzai@gmail.com"
+           class="projects-email reveal slide-up"
+           style="transition-delay:0.2s">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <rect x="2" y="4" width="20" height="16" rx="2"/>
+            <polyline points="22,6 12,13 2,6"/>
+          </svg>
+          <span>engrhassansardarumarzai@gmail.com</span>
+        </a>
+
+        <!-- Animated stat strip under hero -->
+        <div class="projects-stats reveal slide-up" style="transition-delay:0.28s">
+          <div class="pstat">
+            <span class="pstat-num" data-count="10">10</span>
+            <span class="pstat-label">Projects</span>
+          </div>
+          <div class="pstat-divider"></div>
+          <div class="pstat">
+            <span class="pstat-num" data-count="5">5</span>
+            <span class="pstat-label">Sectors</span>
+          </div>
+          <div class="pstat-divider"></div>
+          <div class="pstat">
+            <span class="pstat-num" data-count="9">9</span>
+            <span class="pstat-label">Tech Stack</span>
+          </div>
+          <div class="pstat-divider"></div>
+          <div class="pstat">
+            <span class="pstat-num" data-count="100">100</span>
+            <span class="pstat-label">% Craft</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS GRID -->
+    <section class="container section project-section">
+      <div class="project-grid" id="projectGrid">
+
+        <!-- 01 -->
+        <article class="pcard reveal slide-up" data-tilt data-index="01">
+          <div class="pcard-glow" aria-hidden="true"></div>
+          <div class="pcard-inner">
+            <div class="pcard-head">
+              <span class="pcard-num">01</span>
+              <span class="pcard-cat">Enterprise Web Dashboard</span>
+            </div>
+            <h2 class="pcard-title">Umar Sons Import &amp; Export</h2>
+            <p class="pcard-desc">
+              A business management dashboard for a family-owned import/export company in Pakistan. Replaced manual spreadsheets with a role-based web platform for customers, containers, warehouse stock, expenses, ledgers, and 15+ financial reports — each with client-side PDF and Excel export.
+            </p>
+            <div class="pcard-tags">
+              <span class="pill">ASP.NET Core</span>
+              <span class="pill">.NET 8</span>
+              <span class="pill">EF Core</span>
+              <span class="pill">SQL Server</span>
+              <span class="pill">TypeScript</span>
+            </div>
+            <div class="pcard-footer">
+              <span class="pcard-cta">View project</span>
+              <span class="pcard-arrow" aria-hidden="true">→</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- 02 -->
+        <article class="pcard reveal slide-up" data-tilt data-index="02" style="transition-delay:0.08s">
+          <div class="pcard-glow" aria-hidden="true"></div>
+          <div class="pcard-inner">
+            <div class="pcard-head">
+              <span class="pcard-num">02</span>
+              <span class="pcard-cat">Android App · MAUI Blazor Hybrid</span>
+            </div>
+            <h2 class="pcard-title">Umar Sons Import & Export Mobile App</h2>
+            <p class="pcard-desc">
+              A native Android companion app that mirrors the web dashboard using .NET MAUI Blazor Hybrid. Shares the same login, API, and database, so data stays in sync across both clients — including every report, customer ledger, and PDF export on the go.
+            </p>
+            <div class="pcard-tags">
+              <span class="pill">.NET MAUI</span>
+              <span class="pill">Blazor Hybrid</span>
+              <span class="pill">C#</span>
+              <span class="pill">Android</span>
+              <span class="pill">HttpClient</span>
+            </div>
+            <div class="pcard-footer">
+              <span class="pcard-cta">View project</span>
+              <span class="pcard-arrow" aria-hidden="true">→</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- 03 -->
+        <article class="pcard reveal slide-up" data-tilt data-index="03" style="transition-delay:0.16s">
+          <div class="pcard-glow" aria-hidden="true"></div>
+          <div class="pcard-inner">
+            <div class="pcard-head">
+              <span class="pcard-num">03</span>
+              <span class="pcard-cat">Desktop + Mobile POS · Healthcare</span>
+            </div>
+            <h2 class="pcard-title">MediCare Pharmacy Management</h2>
+            <p class="pcard-desc">
+              A production-grade pharmacy Point-of-Sale built with .NET MAUI Blazor Hybrid — real barcode scanning, thermal receipt printing, real-time inventory, and role-based access, running natively on Windows and Android from one codebase.
+            </p>
+            <div class="pcard-tags">
+              <span class="pill">.NET MAUI</span>
+              <span class="pill">Blazor Hybrid</span>
+              <span class="pill">SQLite</span>
+              <span class="pill">ESC/POS</span>
+              <span class="pill">QuestPDF</span>
+            </div>
+            <div class="pcard-footer">
+              <span class="pcard-cta">View case study</span>
+              <span class="pcard-arrow" aria-hidden="true">→</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- 04 - KPCTA Mobile App -->
+        <article class="pcard reveal slide-up" data-tilt data-index="04" style="transition-delay:0.24s">
+          <div class="pcard-glow" aria-hidden="true"></div>
+          <div class="pcard-inner">
+            <div class="pcard-head">
+              <span class="pcard-num">04</span>
+              <span class="pcard-cat">Mobile Application</span>
+            </div>
+            <h2 class="pcard-title">KPCTA Mobile App</h2>
+            <p class="pcard-desc">
+              A cross-platform mobile application developed for the Khyber Pakhtunkhwa Culture and Tourism Authority. Provides users with easy access to tourism information, cultural events, and regional exploration tools.
+            </p>
+            <div class="pcard-tags">
+              <span class="pill">.NET MAUI</span>
+              <span class="pill">C#</span>
+              <span class="pill">API</span>
+            </div>
+            <div class="pcard-footer">
+              <span class="pcard-cta">View project</span>
+              <span class="pcard-arrow" aria-hidden="true">→</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- 05 -->
+        <article class="pcard reveal slide-up" data-tilt data-index="05" style="transition-delay:0.32s">
+          <div class="pcard-glow" aria-hidden="true"></div>
+          <div class="pcard-inner">
+            <div class="pcard-head">
+              <span class="pcard-num">05</span>
+              <span class="pcard-cat">Government Dashboard</span>
+            </div>
+            <h2 class="pcard-title">KP Tourism Department — Web Dashboard</h2>
+            <p class="pcard-desc">
+              A web-based administrative dashboard for the Khyber Pakhtunkhwa Tourism Department, focused on data management, reporting, and internal workflows.
+            </p>
+            <div class="pcard-tags">
+              <span class="pill">ASP.NET</span>
+              <span class="pill">C#</span>
+              <span class="pill">SQL Server</span>
+            </div>
+            <div class="pcard-footer">
+              <span class="pcard-cta">View project</span>
+              <span class="pcard-arrow" aria-hidden="true">→</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- 06 - KPK Wildlife -->
+        <article class="pcard reveal slide-up" data-tilt data-index="06" style="transition-delay:0.4s">
+          <div class="pcard-glow" aria-hidden="true"></div>
+          <div class="pcard-inner">
+            <div class="pcard-head">
+              <span class="pcard-num">06</span>
+              <span class="pcard-cat">Wildlife Management</span>
+            </div>
+            <h2 class="pcard-title">KPK Wildlife Department System</h2>
+            <p class="pcard-desc">
+              A comprehensive management system built for the KPK Wildlife Department to streamline administrative tasks, maintain wildlife records, and manage departmental data efficiently through a secure digital platform.
+            </p>
+            <div class="pcard-tags">
+              <span class="pill">ASP.NET</span>
+              <span class="pill">C#</span>
+              <span class="pill">SQL Server</span>
+            </div>
+            <div class="pcard-footer">
+              <span class="pcard-cta">View project</span>
+              <span class="pcard-arrow" aria-hidden="true">→</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- 07 -->
+        <article class="pcard reveal slide-up" data-tilt data-index="07" style="transition-delay:0.48s">
+          <div class="pcard-glow" aria-hidden="true"></div>
+          <div class="pcard-inner">
+            <div class="pcard-head">
+              <span class="pcard-num">07</span>
+              <span class="pcard-cat">Government System</span>
+            </div>
+            <h2 class="pcard-title">KP Forest Department</h2>
+            <p class="pcard-desc">
+              A software system developed for the Khyber Pakhtunkhwa Forest Department, supporting digital record management and administrative processes.
+            </p>
+            <div class="pcard-tags">
+              <span class="pill">C#</span>
+              <span class="pill">.NET</span>
+              <span class="pill">SQL Server</span>
+            </div>
+            <div class="pcard-footer">
+              <span class="pcard-cta">View project</span>
+              <span class="pcard-arrow" aria-hidden="true">→</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- 08 - Umarsons Business Management -->
+        <article class="pcard reveal slide-up" data-tilt data-index="08" style="transition-delay:0.56s">
+          <div class="pcard-glow" aria-hidden="true"></div>
+          <div class="pcard-inner">
+            <div class="pcard-head">
+              <span class="pcard-num">08</span>
+              <span class="pcard-cat">Business Management System</span>
+            </div>
+            <h2 class="pcard-title">Umarsons Business Management</h2>
+            <p class="pcard-desc">
+              A complete business management solution designed for Umarsons. The system handles administrative workflows, structured data management, and core business operations to improve efficiency and record-keeping.
+            </p>
+            <div class="pcard-tags">
+              <span class="pill">ASP.NET</span>
+              <span class="pill">C#</span>
+              <span class="pill">SQL Server</span>
+            </div>
+            <div class="pcard-footer">
+              <span class="pcard-cta">View project</span>
+              <span class="pcard-arrow" aria-hidden="true">→</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- 09 -->
+        <article class="pcard reveal slide-up" data-tilt data-index="09" style="transition-delay:0.64s">
+          <div class="pcard-glow" aria-hidden="true"></div>
+          <div class="pcard-inner">
+            <div class="pcard-head">
+              <span class="pcard-num">09</span>
+              <span class="pcard-cat">Travel &amp; Tourism</span>
+            </div>
+            <h2 class="pcard-title">Letszu Travel &amp; Tours</h2>
+            <p class="pcard-desc">
+              A travel and tours booking platform built with ASP.NET, focused on tour listings, booking workflows, and a clean customer-facing experience.
+            </p>
+            <div class="pcard-tags">
+              <span class="pill">ASP.NET</span>
+              <span class="pill">C#</span>
+              <span class="pill">SQL Server</span>
+            </div>
+            <div class="pcard-footer">
+              <span class="pcard-cta">View project</span>
+              <span class="pcard-arrow" aria-hidden="true">→</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- 10 -->
+        <article class="pcard reveal slide-up" data-tilt data-index="10" style="transition-delay:0.72s">
+          <div class="pcard-glow" aria-hidden="true"></div>
+          <div class="pcard-inner">
+            <div class="pcard-head">
+              <span class="pcard-num">10</span>
+              <span class="pcard-cat">Web Platform</span>
+            </div>
+            <h2 class="pcard-title">Malik Cyber Institute</h2>
+            <p class="pcard-desc">
+              A web platform for an educational institute, focused on course information, student engagement, and a professional online presence.
+            </p>
+            <div class="pcard-tags">
+              <span class="pill">ASP.NET</span>
+              <span class="pill">HTML</span>
+              <span class="pill">CSS</span>
+            </div>
+            <div class="pcard-footer">
+              <span class="pcard-cta">View project</span>
+              <span class="pcard-arrow" aria-hidden="true">→</span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ============================================================
+         CASE STUDY — Umar Sons (Web + Mobile)
+         ============================================================ -->
+    <section class="container section case-study">
+      <div class="section-head reveal slide-up">
+        <span class="eyebrow">Case study</span>
+        <h2 class="section-tagline">Umar Sons — Web &amp; Mobile</h2>
+        <p class="case-study-intro">
+          Two linked projects that replaced spreadsheet workflows for a family-owned
+          import/export company in Pakistan. One web dashboard. One Android app.
+          Same API. Same database. Same login.
+        </p>
+      </div>
+
+      <div class="case-study-grid">
+        <!-- Web card -->
+        <div class="case-card reveal slide-up">
+          <span class="case-num">01</span>
+          <h3>Umar Sons Import &amp; Export — Web</h3>
+          <p>
+            A business management dashboard built with ASP.NET Core MVC (.NET 8),
+            EF Core code-first migrations, and SQL Server. Covers customer
+            management, container loading records, China and Pakistan warehouse
+            inventory, expenses, and customer ledgers — plus 15+ reports, each with
+            client-side PDF and Excel export.
+          </p>
+          <ul class="case-list">
+            <li>ASP.NET Identity with role-based access (Admin, Manager, User)</li>
+            <li>Soft-delete pattern propagated through every list endpoint</li>
+            <li>Multi-branch user scoping</li>
+            <li>jsPDF + autoTable paginated A4 reports</li>
+            <li>SheetJS exports for Excel workflows</li>
+          </ul>
+          <p class="case-meta">
+            <strong>Stack:</strong> ASP.NET Core · EF Core · SQL Server · TypeScript · jsPDF · SheetJS
+          </p>
+        </div>
+
+        <!-- Mobile card -->
+        <div class="case-card reveal slide-up" style="transition-delay:0.1s">
+          <span class="case-num">02</span>
+          <h3>Umar Sons — Mobile</h3>
+          <p>
+            A native Android app built with .NET MAUI Blazor Hybrid that reuses the
+            Razor components from the web project. Same credentials, same reports,
+            same data — because both clients hit the same API and database.
+          </p>
+          <ul class="case-list">
+            <li>Singleton HttpClient with shared CookieContainer for ASP.NET Identity cookies</li>
+            <li>Ship-themed CSS + SVG loading animation</li>
+            <li>Multi-page branded PDF export on Customer Ledger</li>
+            <li>Base64 PDF handoff from WebView JavaScript to C# File.WriteAllBytesAsync</li>
+            <li>Custom SVG app icon and splash screen (navy #05274D + orange #ff9b44)</li>
+          </ul>
+          <p class="case-meta">
+            <strong>Stack:</strong> .NET MAUI · Blazor Hybrid · C# · HttpClient · Android
+          </p>
+        </div>
+      </div>
+
+      <!-- Learnings row -->
+      <div class="case-learnings reveal slide-up">
+        <h4>What I learned</h4>
+        <div class="case-learnings-grid">
+          <span>ASP.NET Core authentication pipelines (cookies + JWT)</span>
+          <span>MAUI Blazor Hybrid cross-platform development</span>
+          <span>API contract design for multiple clients</span>
+          <span>Android SSL, USB tunneling, file system restrictions</span>
+          <span>Preparing and signing an Android App Bundle (AAB)</span>
+          <span>Keeping two clients in sync via a shared API</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA DARK -->
+    <section class="cta-dark reveal slide-up">
+      <div class="container cta-content">
+        <h2>Want to see more?</h2>
+        <p>More projects, case studies, and code samples are available on request — or reach out to discuss what you're building.</p>
+
+        <a href="mailto:engrhassansardarumarzai@gmail.com" class="cta-email">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <rect x="2" y="4" width="20" height="16" rx="2"/>
+            <polyline points="22,6 12,13 2,6"/>
+          </svg>
+          engrhassansardarumarzai@gmail.com
+        </a>
+
+        <div class="cta-buttons">
+          <a href="contact.html" class="btn btn-primary">Get in Touch</a>
+          <a href="project.html" class="btn btn-outline btn-outline-light">Back to Top</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== SHARED FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-col">
+        <span class="logo footer-logo">HS</span>
+        <p class="footer-name">Hassan Sardar Umarzai</p>
+        <p class="footer-sub">S/O Haji Abdulghaffar Umarzai</p>
+        <p class="footer-bio">Full Stack Developer  building modern desktop and web applications with the Microsoft .NET ecosystem.</p>
+        <p class="footer-stack">C# · .NET · MAUI · ASP.NET · Blazor</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Navigate</h4>
+        <a href="index.html" class="footer-link">Home</a>
+        <a href="aboutus.html" class="footer-link">About</a>
+        <a href="experience.html" class="footer-link">Experience</a>
+        <a href="skills.html" class="footer-link">Skills</a>
+        <a href="project.html" class="footer-link">Projects</a>
+        <a href="company.html" class="footer-link">Company</a>
+        <a href="contact.html" class="footer-link">Contact</a>
+      </div>
+
+      <div class="footer-col">
+        <h4>Stack</h4>
+        <div class="footer-pills">
+          <span class="pill">C#</span><span class="pill">.NET</span><span class="pill">MAUI</span>
+          <span class="pill">ASP.NET</span><span class="pill">Blazor</span><span class="pill">SQL Server</span>
+          <span class="pill">HTML5</span><span class="pill">CSS3</span><span class="pill">JavaScript</span>
+          <span class="pill">Git</span>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>Connect</h4>
+        <a href="mailto:engrhassansardarumarzai@gmail.com" class="footer-contact footer-contact-link">
+          engrhassansardarumarzai@gmail.com
+        </a>
+        <p class="footer-contact">Peshawar, Pakistan</p>
+        <div class="footer-social">
+          <a href="https://www.linkedin.com/in/hassan-sardar-umarzai-ab12b8436" target="_blank" rel="noopener" class="social-btn" aria-label="LinkedIn">in</a>
+          <a href="https://github.com/EngineerHassanSardar" target="_blank" rel="noopener" class="social-btn" aria-label="GitHub">gh</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom container">
+      <p>© 2026 Hassan Sardar Umarzai. All rights reserved.</p>
+      <p>Built with HTML, CSS &amp; JS</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

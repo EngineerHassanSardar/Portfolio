@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO meta -->
+  <title>About · Hassan Sardar Umarzai</title>
+  <meta name="description" content="Get to know Hassan Sardar Umarzai — Full Stack Developer  at TechnoTech Innovations, Peshawar, Pakistan." />
+  <meta property="og:title" content="About · Hassan Sardar Umarzai" />
+  <meta property="og:description" content="Full bio, developer profile, and principles of Hassan Sardar Umarzai." />
+  <meta property="og:type" content="profile" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600&family=JetBrains+Mono:wght@400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Shared stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== ANIMATED AMBIENT BACKGROUND ===== -->
+  <div class="ambient-bg" aria-hidden="true">
+    <span class="orb orb-1"></span>
+    <span class="orb orb-2"></span>
+    <span class="orb orb-3"></span>
+    <span class="grid-lines"></span>
+  </div>
+
+  <!-- ===== SHARED HEADER / STICKY NAVBAR ===== -->
+  <header class="navbar" id="navbar">
+    <div class="nav-inner container">
+      <a href="index.html" class="logo" aria-label="Homepage">HS</a>
+
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="navMenu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav-menu" id="navMenu" aria-label="Main navigation">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="aboutus.html" class="nav-link active">About</a>
+        <a href="experience.html" class="nav-link">Experience</a>
+        <a href="skills.html" class="nav-link">Skills</a>
+        <a href="project.html" class="nav-link">Projects</a>
+        <a href="company.html" class="nav-link">Company</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+        <a href="contact.html" class="btn btn-sm btn-primary nav-cta">Let's Talk</a>
+      </nav>
+
+      <div class="scroll-progress" id="scrollProgress"></div>
+    </div>
+  </header>
+
+  <!-- ===== ABOUT PAGE CONTENT ===== -->
+  <main>
+
+    <!-- ABOUT HERO -->
+    <section class="about-hero container section" id="about">
+      <div class="about-grid">
+        <!-- Left: text -->
+        <div class="about-text reveal slide-left">
+          <span class="eyebrow">Get to know who I am</span>
+          <h1 class="about-heading">
+            Hassan Sardar<br />
+            <span class="accent-blue">Umarzai</span>
+          </h1>
+          <p class="about-sub">S/O Haji Abdulghaffar Umarzai · Peshawar, Pakistan</p>
+
+          <p class="about-para">
+            I'm a Full Stack Developer  at <strong>TechnoTech Innovations (Pvt.) Ltd.</strong>, where I
+            build modern desktop and web applications using the Microsoft .NET ecosystem. My day-to-day
+            work spans C#, .NET MAUI, ASP.NET, and Blazor — with SQL Server as the backbone for data.
+          </p>
+
+          <p class="about-para">
+            I started my journey with a strong curiosity for how software solves real problems. What began
+            as tinkering with small console apps grew into a professional focus on clean architecture,
+            database design, and shipping features that users actually enjoy. I care about the details:
+            naming, structure, readability, and the small UI touches that make software feel polished.
+          </p>
+
+          <p class="about-para">
+            Outside of client work, I enjoy learning new patterns in the .NET space, refining my
+            JavaScript and CSS skills, and exploring how modern web frameworks deliver great experiences
+            with less overhead. I'm based in Peshawar and always open to conversations about software,
+            craft, and collaboration.
+          </p>
+
+          <div class="about-actions">
+            <a href="contact.html" class="btn btn-primary">Let's Connect</a>
+            <a href="project.html" class="btn btn-outline">View Projects</a>
+          </div>
+        </div>
+
+        <!-- Right: photo with ring + tags -->
+        <div class="about-visual reveal slide-right">
+          <div class="photo-wrapper">
+            <div class="halo"></div>
+            <div class="dashed-ring"></div>
+            <img src="hassan.jpeg" alt="Hassan Sardar Umarzai" class="hero-photo" width="360" height="360" />
+            <span class="float-tag tag-1">C#</span>
+            <span class="float-tag tag-2">.NET</span>
+            <span class="float-tag tag-3">MAUI</span>
+            <span class="float-tag tag-4">Blazor</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DEVELOPER PROFILE — 5 STAT CARDS -->
+    <section class="container section">
+      <h2 class="section-heading reveal slide-up">Developer profile</h2>
+
+      <div class="profile-grid">
+        <div class="profile-card reveal slide-up">
+          <span class="profile-label">Role</span>
+          <span class="profile-value">Full Stack Developer </span>
+        </div>
+        <div class="profile-card reveal slide-up" style="transition-delay:0.05s">
+          <span class="profile-label">Company</span>
+          <span class="profile-value">TechnoTech Innovations</span>
+        </div>
+        <div class="profile-card reveal slide-up" style="transition-delay:0.1s">
+          <span class="profile-label">Ecosystem</span>
+          <span class="profile-value">Microsoft .NET</span>
+        </div>
+        <div class="profile-card reveal slide-up" style="transition-delay:0.15s">
+          <span class="profile-label">Focus</span>
+          <span class="profile-value">Desktop &amp; Web Apps</span>
+        </div>
+        <div class="profile-card reveal slide-up" style="transition-delay:0.2s">
+          <span class="profile-label">Location</span>
+          <span class="profile-value">Peshawar, Pakistan</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- HOW I WORK — 3 PRINCIPLE CARDS -->
+    <section class="container section">
+      <div class="section-head reveal slide-up">
+        <span class="eyebrow">Philosophy</span>
+        <h2 class="section-tagline">How I work</h2>
+      </div>
+
+      <div class="principle-grid">
+        <div class="principle-card reveal slide-up">
+          <div class="principle-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 2 2 7l10 5 10-5-10-5z"/>
+              <path d="m2 17 10 5 10-5"/>
+              <path d="m2 12 10 5 10-5"/>
+            </svg>
+          </div>
+          <h3>Clean by default</h3>
+          <p>Readable code, sensible naming, small functions, and structure that another developer can pick up on day one.</p>
+        </div>
+
+        <div class="principle-card reveal slide-up" style="transition-delay:0.1s">
+          <div class="principle-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"/>
+              <polyline points="12 6 12 12 16 14"/>
+            </svg>
+          </div>
+          <h3>Ship on time</h3>
+          <p>Realistic scoping, steady progress, and predictable delivery — no surprises at the finish line.</p>
+        </div>
+
+        <div class="principle-card reveal slide-up" style="transition-delay:0.2s">
+          <div class="principle-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M20 12V8H6a2 2 0 0 1-2-2c0-1.1.9-2 2-2h12v4"/>
+              <path d="M4 6v12c0 1.1.9 2 2 2h14v-4"/>
+              <path d="M18 12a2 2 0 0 0-2 2c0 1.1.9 2 2 2h4v-4z"/>
+            </svg>
+          </div>
+          <h3>Learn continuously</h3>
+          <p>Every project is a chance to sharpen a skill, adopt a better pattern, or fix something I did yesterday.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- BEYOND CODE — 4 VALUE CARDS -->
+    <section class="container section">
+      <div class="section-head reveal slide-up">
+        <span class="eyebrow">Values</span>
+        <h2 class="section-tagline">Beyond code</h2>
+      </div>
+
+      <div class="value-grid">
+        <div class="value-card reveal slide-up">
+          <span class="value-num">01</span>
+          <h4>Ownership</h4>
+          <p>If it's on my plate, it gets finished — with quality, not just completion.</p>
+        </div>
+
+        <div class="value-card reveal slide-up" style="transition-delay:0.05s">
+          <span class="value-num">02</span>
+          <h4>Clarity</h4>
+          <p>Plain communication, honest timelines, and transparent progress on every task.</p>
+        </div>
+
+        <div class="value-card reveal slide-up" style="transition-delay:0.1s">
+          <span class="value-num">03</span>
+          <h4>Curiosity</h4>
+          <p>I ask why, read source code, and never stop asking better questions about the stack.</p>
+        </div>
+
+        <div class="value-card reveal slide-up" style="transition-delay:0.15s">
+          <span class="value-num">04</span>
+          <h4>Respect</h4>
+          <p>For users, for teammates, and for the craft — every commit is a small promise kept.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA DARK SECTION -->
+    <section class="cta-dark reveal slide-up">
+      <div class="container cta-content">
+        <h2>Let's build something together</h2>
+        <p>Whether it's a new project or an existing one that needs polish — I'd love to hear about it.</p>
+        <a href="contact.html" class="btn btn-primary">Get in Touch</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== SHARED FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-col">
+        <span class="logo footer-logo">HS</span>
+        <p class="footer-name">Hassan Sardar Umarzai</p>
+        <p class="footer-sub">S/O Haji Abdulghaffar Umarzai</p>
+        <p class="footer-bio">Full Stack Developer  building modern desktop and web applications with the Microsoft .NET ecosystem.</p>
+        <p class="footer-stack">C# · .NET · MAUI · ASP.NET · Blazor</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Navigate</h4>
+        <a href="index.html" class="footer-link">Home</a>
+        <a href="aboutus.html" class="footer-link">About</a>
+        <a href="experience.html" class="footer-link">Experience</a>
+        <a href="skills.html" class="footer-link">Skills</a>
+        <a href="project.html" class="footer-link">Projects</a>
+        <a href="company.html" class="footer-link">Company</a>
+        <a href="contact.html" class="footer-link">Contact</a>
+      </div>
+
+      <div class="footer-col">
+        <h4>Stack</h4>
+        <div class="footer-pills">
+          <span class="pill">C#</span><span class="pill">.NET</span><span class="pill">MAUI</span>
+          <span class="pill">ASP.NET</span><span class="pill">Blazor</span><span class="pill">SQL Server</span>
+          <span class="pill">HTML5</span><span class="pill">CSS3</span><span class="pill">JavaScript</span>
+          <span class="pill">Git</span>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>Connect</h4>
+        <p class="footer-contact">engrhassansardarumarzai@gmail.com</p>
+        <p class="footer-contact">Peshawar, Pakistan</p>
+        <div class="footer-social">
+          <a href="https://www.linkedin.com/in/hassan-sardar-umarzai-ab12b8436" target="_blank" rel="noopener" class="social-btn" aria-label="LinkedIn">in</a>
+          <a href="https://github.com/EngineerHassanSardar" target="_blank" rel="noopener" class="social-btn" aria-label="GitHub">gh</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom container">
+      <p>© 2026 Hassan Sardar Umarzai. All rights reserved.</p>
+      <p>Built with HTML, CSS &amp; JS</p>
+    </div>
+  </footer>
+
+  <!-- Shared script -->
+  <script src="script.js"></script>
+</body>
+</html>

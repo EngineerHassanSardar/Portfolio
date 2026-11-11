@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO meta -->
+  <title>Contact · Hassan Sardar Umarzai</title>
+  <meta name="description" content="Get in touch with Hassan Sardar Umarzai — Full Stack Developer  at TechnoTech Innovations, Peshawar, Pakistan." />
+  <meta property="og:title" content="Contact · Hassan Sardar Umarzai" />
+  <meta property="og:description" content="Email, LinkedIn, GitHub, and location — let's connect." />
+  <meta property="og:type" content="website" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600&family=JetBrains+Mono:wght@400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Shared stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== ANIMATED AMBIENT BACKGROUND ===== -->
+  <div class="ambient-bg" aria-hidden="true">
+    <span class="orb orb-1"></span>
+    <span class="orb orb-2"></span>
+    <span class="orb orb-3"></span>
+    <span class="grid-lines"></span>
+  </div>
+
+  <!-- ===== SHARED HEADER / STICKY NAVBAR ===== -->
+  <header class="navbar" id="navbar">
+    <div class="nav-inner container">
+      <a href="index.html" class="logo" aria-label="Homepage">HS</a>
+
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="navMenu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav-menu" id="navMenu" aria-label="Main navigation">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="aboutus.html" class="nav-link">About</a>
+        <a href="experience.html" class="nav-link">Experience</a>
+        <a href="skills.html" class="nav-link">Skills</a>
+        <a href="project.html" class="nav-link">Projects</a>
+        <a href="company.html" class="nav-link">Company</a>
+        <a href="contact.html" class="nav-link active">Contact</a>
+        <a href="contact.html" class="btn btn-sm btn-primary nav-cta">Let's Talk</a>
+      </nav>
+
+      <div class="scroll-progress" id="scrollProgress"></div>
+    </div>
+  </header>
+
+  <!-- ===== CONTACT PAGE CONTENT ===== -->
+  <main>
+
+    <!-- HEADER -->
+    <section class="container section" id="contact">
+      <div class="section-head reveal slide-up">
+        <span class="eyebrow">Get in touch</span>
+        <h1 class="section-tagline">Let's connect</h1>
+        <p class="contact-intro">
+          Whether you have a project idea, a role to discuss, or just want to talk about
+          software — I read every message and reply as quickly as I can.
+        </p>
+      </div>
+
+      <!-- CONTACT GRID: form + tiles -->
+      <div class="contact-grid">
+
+        <!-- LEFT: Form -->
+        <form class="contact-form reveal slide-left"
+              action="mailto:engrhassansardarumarzai@gmail.com"
+              method="post"
+              enctype="text/plain">
+
+          <h2 class="contact-form-title">Send a message</h2>
+
+          <div class="form-field">
+            <label for="name">Your name</label>
+            <input type="text" id="name" name="name" placeholder="e.g. Ayesha Khan" required autocomplete="name" />
+          </div>
+
+          <div class="form-field">
+            <label for="email">Email address</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" required autocomplete="email" />
+          </div>
+
+          <div class="form-field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="6" placeholder="Tell me about your project, idea, or question…" required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary contact-submit">
+            Send Message
+          </button>
+
+          <p class="form-hint">
+            This form opens your default email client with the message pre-filled.
+          </p>
+        </form>
+
+        <!-- RIGHT: Contact tiles -->
+        <div class="contact-tiles">
+
+          <a href="mailto:engrhassansardarumarzai@gmail.com" class="contact-tile reveal slide-right">
+            <div class="contact-tile-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="4" width="20" height="16" rx="2"/>
+                <polyline points="22,6 12,13 2,6"/>
+              </svg>
+            </div>
+            <div class="contact-tile-body">
+              <span class="contact-tile-label">Email</span>
+              <span class="contact-tile-value">engrhassansardarumarzai@gmail.com</span>
+            </div>
+            <span class="contact-tile-arrow" aria-hidden="true">→</span>
+          </a>
+
+          <a href="https://www.linkedin.com/in/hassan-sardar-umarzai-ab12b8436" target="_blank" rel="noopener" class="contact-tile reveal slide-right" style="transition-delay:0.05s">
+            <div class="contact-tile-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M4.98 3.5C4.98 4.88 3.86 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM.5 8h4V24h-4V8zm7.5 0h3.8v2.2h.05c.53-1 1.83-2.2 3.77-2.2 4.03 0 4.78 2.65 4.78 6.1V24h-4v-7.5c0-1.79-.03-4.1-2.5-4.1-2.5 0-2.88 1.95-2.88 3.96V24h-4V8z"/>
+              </svg>
+            </div>
+            <div class="contact-tile-body">
+              <span class="contact-tile-label">LinkedIn</span>
+              <span class="contact-tile-value">Hassan Sardar Umarzai</span>
+            </div>
+            <span class="contact-tile-arrow" aria-hidden="true">→</span>
+          </a>
+
+          <a href="https://github.com/EngineerHassanSardar" target="_blank" rel="noopener" class="contact-tile reveal slide-right" style="transition-delay:0.1s">
+            <div class="contact-tile-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 2C6.48 2 2 6.58 2 12.26c0 4.5 2.87 8.32 6.84 9.67.5.1.68-.22.68-.48 0-.24-.01-.87-.01-1.7-2.78.62-3.37-1.37-3.37-1.37-.45-1.18-1.11-1.5-1.11-1.5-.91-.64.07-.62.07-.62 1 .07 1.53 1.06 1.53 1.06.89 1.56 2.34 1.11 2.91.85.09-.66.35-1.11.63-1.37-2.22-.26-4.56-1.14-4.56-5.07 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.3.1-2.7 0 0 .84-.28 2.75 1.05A9.4 9.4 0 0 1 12 7.03c.85.01 1.7.12 2.5.35 1.9-1.33 2.74-1.05 2.74-1.05.55 1.4.2 2.44.1 2.7.64.72 1.03 1.63 1.03 2.75 0 3.94-2.34 4.8-4.57 5.06.36.32.68.94.68 1.9 0 1.37-.01 2.47-.01 2.8 0 .27.18.59.69.48A10.02 10.02 0 0 0 22 12.26C22 6.58 17.52 2 12 2z"/>
+              </svg>
+            </div>
+            <div class="contact-tile-body">
+              <span class="contact-tile-label">GitHub</span>
+              <span class="contact-tile-value">EngineerHassanSardar</span>
+            </div>
+            <span class="contact-tile-arrow" aria-hidden="true">→</span>
+          </a>
+
+          <div class="contact-tile contact-tile-static reveal slide-right" style="transition-delay:0.15s">
+            <div class="contact-tile-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                <circle cx="12" cy="10" r="3"/>
+              </svg>
+            </div>
+            <div class="contact-tile-body">
+              <span class="contact-tile-label">Location</span>
+              <span class="contact-tile-value">Peshawar, Pakistan</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA DARK -->
+    <section class="cta-dark reveal slide-up">
+      <div class="container cta-content">
+        <h2>Prefer LinkedIn?</h2>
+        <p>The fastest way to reach me is a direct message on LinkedIn — I check it daily.</p>
+        <a href="https://www.linkedin.com/in/hassan-sardar-umarzai-ab12b8436" target="_blank" rel="noopener" class="btn btn-primary">
+          Message on LinkedIn
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== SHARED FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-col">
+        <span class="logo footer-logo">HS</span>
+        <p class="footer-name">Hassan Sardar Umarzai</p>
+        <p class="footer-sub">S/O Haji Abdulghaffar Umarzai</p>
+        <p class="footer-bio">Full Stack Developer  building modern desktop and web applications with the Microsoft .NET ecosystem.</p>
+        <p class="footer-stack">C# · .NET · MAUI · ASP.NET · Blazor</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Navigate</h4>
+        <a href="index.html" class="footer-link">Home</a>
+        <a href="aboutus.html" class="footer-link">About</a>
+        <a href="experience.html" class="footer-link">Experience</a>
+        <a href="skills.html" class="footer-link">Skills</a>
+        <a href="project.html" class="footer-link">Projects</a>
+        <a href="company.html" class="footer-link">Company</a>
+        <a href="contact.html" class="footer-link">Contact</a>
+      </div>
+
+      <div class="footer-col">
+        <h4>Stack</h4>
+        <div class="footer-pills">
+          <span class="pill">C#</span><span class="pill">.NET</span><span class="pill">MAUI</span>
+          <span class="pill">ASP.NET</span><span class="pill">Blazor</span><span class="pill">SQL Server</span>
+          <span class="pill">HTML5</span><span class="pill">CSS3</span><span class="pill">JavaScript</span>
+          <span class="pill">Git</span>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>Connect</h4>
+        <p class="footer-contact">engrhassansardarumarzai@gmail.com</p>
+        <p class="footer-contact">Peshawar, Pakistan</p>
+        <div class="footer-social">
+          <a href="https://www.linkedin.com/in/hassan-sardar-umarzai-ab12b8436" target="_blank" rel="noopener" class="social-btn" aria-label="LinkedIn">in</a>
+          <a href="https://github.com/EngineerHassanSardar" target="_blank" rel="noopener" class="social-btn" aria-label="GitHub">gh</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom container">
+      <p>© 2026 Hassan Sardar Umarzai. All rights reserved.</p>
+      <p>Built with HTML, CSS &amp; JS</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

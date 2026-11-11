@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO meta -->
+  <title>Hassan Sardar Umarzai · Full Stack Developer </title>
+  <meta name="description" content="Portfolio of Hassan Sardar Umarzai — Full Stack Developer  at TechnoTech Innovations. C#, .NET, MAUI, ASP.NET, Blazor." />
+  <meta property="og:title" content="Hassan Sardar Umarzai · Portfolio" />
+  <meta property="og:description" content="Full Stack Developer  building modern desktop and web apps with the .NET ecosystem." />
+  <meta property="og:type" content="website" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600&family=JetBrains+Mono:wght@400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Shared stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== ANIMATED AMBIENT BACKGROUND ===== -->
+  <div class="ambient-bg" aria-hidden="true">
+    <span class="orb orb-1"></span>
+    <span class="orb orb-2"></span>
+    <span class="orb orb-3"></span>
+    <span class="grid-lines"></span>
+  </div>
+
+  <!-- ===== SHARED HEADER / STICKY NAVBAR ===== -->
+  <header class="navbar" id="navbar">
+    <div class="nav-inner container">
+      <!-- Logo -->
+      <a href="index.html" class="logo" aria-label="Homepage">HS</a>
+
+      <!-- Mobile hamburger -->
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="navMenu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <!-- Nav menu -->
+      <nav class="nav-menu" id="navMenu" aria-label="Main navigation">
+        <a href="index.html" class="nav-link active">Home</a>
+        <a href="aboutus.html" class="nav-link">About</a>
+        <a href="experience.html" class="nav-link">Experience</a>
+        <a href="skills.html" class="nav-link">Skills</a>
+        <a href="project.html" class="nav-link">Projects</a>
+        <a href="company.html" class="nav-link">Company</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+        <a href="contact.html" class="btn btn-sm btn-primary nav-cta">Let's Talk</a>
+      </nav>
+
+      <!-- Scroll progress bar -->
+      <div class="scroll-progress" id="scrollProgress"></div>
+    </div>
+  </header>
+
+  <!-- ===== HOME PAGE CONTENT ===== -->
+  <main>
+
+    <!-- HERO SECTION -->
+    <section class="hero container" id="hero">
+      <div class="hero-grid">
+        <!-- Left: text content -->
+        <div class="hero-text reveal slide-up">
+          <span class="hero-badge">Full Stack Developer  · TechnoTech Innovations</span>
+          <h1 class="hero-heading">
+            Hassan Sardar<br />
+            <span class="accent-blue">Umarzai</span>
+          </h1>
+          <p class="hero-sub">S/O Haji Abdulghaffar Umarzai</p>
+          <p class="hero-intro">
+            I'm a Full Stack Developer  building modern desktop and web applications with the Microsoft .NET ecosystem —
+            C#, .NET MAUI, ASP.NET, and Blazor.
+          </p>
+          <div class="hero-pills">
+            <span class="pill">C#</span>
+            <span class="pill">.NET</span>
+            <span class="pill">.NET MAUI</span>
+            <span class="pill">ASP.NET</span>
+            <span class="pill">Blazor</span>
+          </div>
+          <div class="hero-actions">
+            <a href="project.html" class="btn btn-primary">View My Work</a>
+            <a href="contact.html" class="btn btn-outline">Let's Connect</a>
+          </div>
+      <div class="hero-social">
+  <a href="https://www.linkedin.com/in/hassan-sardar-umarzai-ab12b8436" target="_blank" rel="noopener" aria-label="LinkedIn profile">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5C4.98 4.88 3.86 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM.5 8h4V24h-4V8zm7.5 0h3.8v2.2h.05c.53-1 1.83-2.2 3.77-2.2 4.03 0 4.78 2.65 4.78 6.1V24h-4v-7.5c0-1.79-.03-4.1-2.5-4.1-2.5 0-2.88 1.95-2.88 3.96V24h-4V8z"/></svg>
+  </a>
+  <a href="https://github.com/EngineerHassanSardar" target="_blank" rel="noopener" aria-label="GitHub profile">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.58 2 12.26c0 4.5 2.87 8.32 6.84 9.67.5.1.68-.22.68-.48 0-.24-.01-.87-.01-1.7-2.78.62-3.37-1.37-3.37-1.37-.45-1.18-1.11-1.5-1.11-1.5-.91-.64.07-.62.07-.62 1 .07 1.53 1.06 1.53 1.06.89 1.56 2.34 1.11 2.91.85.09-.66.35-1.11.63-1.37-2.22-.26-4.56-1.14-4.56-5.07 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.3.1-2.7 0 0 .84-.28 2.75 1.05A9.4 9.4 0 0 1 12 7.03c.85.01 1.7.12 2.5.35 1.9-1.33 2.74-1.05 2.74-1.05.55 1.4.2 2.44.1 2.7.64.72 1.03 1.63 1.03 2.75 0 3.94-2.34 4.8-4.57 5.06.36.32.68.94.68 1.9 0 1.37-.01 2.47-.01 2.8 0 .27.18.59.69.48A10.02 10.02 0 0 0 22 12.26C22 6.58 17.52 2 12 2z"/></svg>
+  </a>
+  <a href="mailto:engrhassansardarumarzai@gmail.com" aria-label="Send an email">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="2" y="4" width="20" height="16" rx="2"/>
+      <polyline points="22,6 12,13 2,6"/>
+    </svg>
+  </a>
+</div>
+        </div>
+
+        <!-- Right: photo with halo, ring, floating tags -->
+        <div class="hero-visual reveal zoom-in">
+          <div class="photo-wrapper">
+            <div class="halo"></div>
+            <div class="dashed-ring"></div>
+            <img src="hassan.jpeg" alt="Hassan Sardar Umarzai" class="hero-photo" width="360" height="360" />
+            <!-- floating tags -->
+            <span class="float-tag tag-1">.NET</span>
+            <span class="float-tag tag-2">MAUI</span>
+            <span class="float-tag tag-3">Blazor</span>
+            <span class="float-tag tag-4">SQL</span>
+          </div>
+          <!-- scroll indicator -->
+          <div class="scroll-indicator" aria-hidden="true">
+            <span class="dot"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- INFO CARDS -->
+    <section class="container section">
+      <div class="info-cards">
+        <div class="info-card reveal slide-up" data-tilt>
+          <div class="info-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+          </div>
+          <h3>Current Role</h3>
+          <p>Full Stack Developer  at TechnoTech Innovations (Pvt.) Ltd.</p>
+        </div>
+        <div class="info-card reveal slide-up" data-tilt style="transition-delay: 0.1s">
+          <div class="info-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+          </div>
+          <h3>Focus Areas</h3>
+          <p>Desktop &amp; web apps, clean architecture, database design, and user-first interfaces.</p>
+        </div>
+        <div class="info-card reveal slide-up" data-tilt style="transition-delay: 0.2s">
+          <div class="info-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+          </div>
+          <h3>Core Stack</h3>
+          <p>C#, .NET, .NET MAUI, ASP.NET, Blazor, SQL Server, HTML5, CSS3, JavaScript.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- MARQUEE STRIP -->
+    <section class="marquee-section" aria-hidden="true">
+      <div class="marquee">
+        <div class="marquee-track">
+          <span>C#</span><span class="dot">•</span>
+          <span>.NET</span><span class="dot">•</span>
+          <span>.NET MAUI</span><span class="dot">•</span>
+          <span>ASP.NET</span><span class="dot">•</span>
+          <span>Blazor</span><span class="dot">•</span>
+          <span>SQL Server</span><span class="dot">•</span>
+          <span>HTML5</span><span class="dot">•</span>
+          <span>CSS3</span><span class="dot">•</span>
+          <span>JavaScript</span><span class="dot">•</span>
+          <span>Git</span><span class="dot">•</span>
+          <!-- duplicate for seamless loop -->
+          <span>C#</span><span class="dot">•</span>
+          <span>.NET</span><span class="dot">•</span>
+          <span>.NET MAUI</span><span class="dot">•</span>
+          <span>ASP.NET</span><span class="dot">•</span>
+          <span>Blazor</span><span class="dot">•</span>
+          <span>SQL Server</span><span class="dot">•</span>
+          <span>HTML5</span><span class="dot">•</span>
+          <span>CSS3</span><span class="dot">•</span>
+          <span>JavaScript</span><span class="dot">•</span>
+          <span>Git</span><span class="dot">•</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICE GRID -->
+    <section class="container section">
+      <div class="section-head reveal slide-up">
+        <span class="eyebrow">What I build</span>
+        <h2 class="section-tagline">We build customized software for you</h2>
+      </div>
+
+      <div class="service-grid">
+        <div class="service-card reveal slide-up">
+          <div class="service-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+          </div>
+          <h4>Desktop Apps</h4>
+          <p class="service-desc">Native performance, offline-first reliability.</p>
+        </div>
+
+        <div class="service-card reveal slide-up" style="transition-delay:0.05s">
+          <div class="service-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+          </div>
+          <h4>Web Development</h4>
+          <p class="service-desc">Responsive, fast, and accessible by default.</p>
+        </div>
+
+        <div class="service-card reveal slide-up" style="transition-delay:0.1s">
+          <div class="service-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2.5"/><line x1="12" y1="18" x2="12" y2="18"/></svg>
+          </div>
+          <h4>MAUI Apps</h4>
+          <p class="service-desc">One codebase, native iOS, Android, and desktop.</p>
+        </div>
+
+        <div class="service-card reveal slide-up" style="transition-delay:0.15s">
+          <div class="service-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+          </div>
+          <h4>Blazor</h4>
+          <p class="service-desc">Interactive SPAs with C# end-to-end.</p>
+        </div>
+
+        <div class="service-card reveal slide-up" style="transition-delay:0.2s">
+          <div class="service-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>
+          </div>
+          <h4>SQL Server</h4>
+          <p class="service-desc">Normalized schemas, tuned queries, safe migrations.</p>
+        </div>
+
+        <div class="service-card reveal slide-up" style="transition-delay:0.25s">
+          <div class="service-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M16 18l6-6-6-6"/><path d="M8 6l-6 6 6 6"/></svg>
+          </div>
+          <h4>API Integration</h4>
+          <p class="service-desc">REST, JSON, OAuth — wired cleanly.</p>
+        </div>
+
+        <div class="service-card reveal slide-up" style="transition-delay:0.3s">
+          <div class="service-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="9" rx="1"/><rect x="14" y="3" width="7" height="5" rx="1"/><rect x="14" y="12" width="7" height="9" rx="1"/><rect x="3" y="16" width="7" height="5" rx="1"/></svg>
+          </div>
+          <h4>Dashboards</h4>
+          <p class="service-desc">Real-time metrics with role-based views.</p>
+        </div>
+
+        <div class="service-card reveal slide-up" style="transition-delay:0.35s">
+          <div class="service-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="9" y1="13" x2="15" y2="13"/><line x1="9" y1="17" x2="15" y2="17"/></svg>
+          </div>
+          <h4>CMS</h4>
+          <p class="service-desc">Structured content, versioned, easy to edit.</p>
+        </div>
+
+        <div class="service-card reveal slide-up" style="transition-delay:0.4s">
+          <div class="service-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/><circle cx="12" cy="16" r="1"/></svg>
+          </div>
+          <h4>Auth Systems</h4>
+          <p class="service-desc">Identity, roles, tokens — hardened.</p>
+        </div>
+
+        <div class="service-card reveal slide-up" style="transition-delay:0.45s">
+          <div class="service-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>
+          </div>
+          <h4>Inventory</h4>
+          <p class="service-desc">Stock, orders, suppliers — one flow.</p>
+        </div>
+
+        <div class="service-card reveal slide-up" style="transition-delay:0.5s">
+          <div class="service-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+          </div>
+          <h4>Reporting</h4>
+          <p class="service-desc">Charts, exports, scheduled summaries.</p>
+        </div>
+
+        <div class="service-card reveal slide-up" style="transition-delay:0.55s">
+          <div class="service-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8h1a4 4 0 0 1 0 8h-1"/><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/><line x1="6" y1="1" x2="6" y2="4"/><line x1="10" y1="1" x2="10" y2="4"/><line x1="14" y1="1" x2="14" y2="4"/></svg>
+          </div>
+          <h4>Support</h4>
+          <p class="service-desc">Monitoring, fixes, and continuous upkeep.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURED PROJECTS PREVIEW -->
+    <!-- FEATURED PROJECTS -->
+    <!-- FEATURED PROJECTS -->
+    <section class="container section">
+      <div class="section-head reveal slide-up">
+        <h2 class="section-tagline">Featured projects</h2>
+      </div>
+
+      <div class="project-list">
+
+        <!-- 01 -->
+        <a href="project.html" class="project-row reveal slide-left">
+          <span class="project-num">01</span>
+          <div class="project-info">
+            <span class="project-cat">Enterprise Web Dashboard</span>
+            <h3>Umar Sons Import &amp; Export</h3>
+            <p>ASP.NET Core MVC · EF Core · SQL Server · TypeScript</p>
+          </div>
+          <span class="project-arrow">→</span>
+        </a>
+
+        <!-- 02 -->
+        <a href="project.html" class="project-row reveal slide-right">
+          <span class="project-num">02</span>
+          <div class="project-info">
+            <span class="project-cat">Android App · MAUI Blazor Hybrid</span>
+            <h3>Umar Sons Mobile App</h3>
+            <p>.NET MAUI · Blazor Hybrid · C# · Android</p>
+          </div>
+          <span class="project-arrow">→</span>
+        </a>
+
+        <!-- 03 -->
+        <a href="project.html" class="project-row reveal slide-left">
+          <span class="project-num">03</span>
+          <div class="project-info">
+            <span class="project-cat">Desktop + Mobile POS · Healthcare</span>
+            <h3>MediCare Pharmacy Management</h3>
+            <p>.NET MAUI Blazor Hybrid · SQLite · ESC/POS · QuestPDF</p>
+          </div>
+          <span class="project-arrow">→</span>
+        </a>
+
+        <!-- 04 -->
+        <a href="project.html" class="project-row reveal slide-right">
+          <span class="project-num">04</span>
+          <div class="project-info">
+            <span class="project-cat">Mobile Application</span>
+            <h3>KPCTA Mobile App</h3>
+            <p>.NET MAUI · C# · API</p>
+          </div>
+          <span class="project-arrow">→</span>
+        </a>
+
+        <!-- 05 -->
+        <a href="project.html" class="project-row reveal slide-left">
+          <span class="project-num">05</span>
+          <div class="project-info">
+            <span class="project-cat">Government Web Dashboard</span>
+            <h3>KP Tourism Department — Web Dashboard</h3>
+            <p>ASP.NET · C# · SQL Server</p>
+          </div>
+          <span class="project-arrow">→</span>
+        </a>
+
+        <!-- 06 -->
+        <a href="project.html" class="project-row reveal slide-right">
+          <span class="project-num">06</span>
+          <div class="project-info">
+            <span class="project-cat">Wildlife Management</span>
+            <h3>KPK Wildlife Department System</h3>
+            <p>ASP.NET · C# · SQL Server</p>
+          </div>
+          <span class="project-arrow">→</span>
+        </a>
+
+        <!-- 07 -->
+        <a href="project.html" class="project-row reveal slide-left">
+          <span class="project-num">07</span>
+          <div class="project-info">
+            <span class="project-cat">Government System</span>
+            <h3>KP Forest Department</h3>
+            <p>C# · .NET · SQL Server</p>
+          </div>
+          <span class="project-arrow">→</span>
+        </a>
+
+        <!-- 08 -->
+        <a href="project.html" class="project-row reveal slide-right">
+          <span class="project-num">08</span>
+          <div class="project-info">
+            <span class="project-cat">Business Management System</span>
+            <h3>Umarsons Business Management</h3>
+            <p>ASP.NET · C# · SQL Server</p>
+          </div>
+          <span class="project-arrow">→</span>
+        </a>
+
+        <!-- 09 -->
+        <a href="project.html" class="project-row reveal slide-left">
+          <span class="project-num">09</span>
+          <div class="project-info">
+            <span class="project-cat">Travel &amp; Tourism Platform</span>
+            <h3>Letszu Travel &amp; Tours</h3>
+            <p>ASP.NET · C# · SQL Server</p>
+          </div>
+          <span class="project-arrow">→</span>
+        </a>
+
+        <!-- 10 -->
+        <a href="project.html" class="project-row reveal slide-right">
+          <span class="project-num">10</span>
+          <div class="project-info">
+            <span class="project-cat">Web Platform</span>
+            <h3>Malik Cyber Institute</h3>
+            <p>ASP.NET · HTML · CSS</p>
+          </div>
+          <span class="project-arrow">→</span>
+        </a>
+
+      </div>
+
+      <div class="featured-cta reveal slide-up">
+        <a href="project.html" class="btn btn-outline">View all projects</a>
+      </div>
+    </section>
+    <!-- EXPLORE TILES -->
+    <section class="container section">
+      <h2 class="section-heading reveal slide-up">Explore</h2>
+      <div class="explore-grid">
+        <a href="aboutus.html" class="explore-tile reveal slide-up">About</a>
+        <a href="experience.html" class="explore-tile reveal slide-up" style="transition-delay:0.05s">Experience</a>
+        <a href="skills.html" class="explore-tile reveal slide-up" style="transition-delay:0.1s">Skills</a>
+        <a href="project.html" class="explore-tile reveal slide-up" style="transition-delay:0.15s">Projects</a>
+        <a href="company.html" class="explore-tile reveal slide-up" style="transition-delay:0.2s">Company</a>
+      </div>
+    </section>
+
+    <!-- CTA DARK SECTION -->
+    <section class="cta-dark reveal slide-up">
+      <div class="container cta-content">
+        <h2>Ready to build something great?</h2>
+        <p>Let's turn your ideas into reliable, scalable software.</p>
+        <a href="contact.html" class="btn btn-primary">Let's Connect</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== SHARED FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <!-- Column 1: Brand -->
+      <div class="footer-col">
+        <span class="logo footer-logo">HS</span>
+        <p class="footer-name">Hassan Sardar Umarzai</p>
+        <p class="footer-sub">S/O Haji Abdulghaffar Umarzai</p>
+        <p class="footer-bio">Full Stack Developer  building modern desktop and web applications with the Microsoft .NET ecosystem.</p>
+        <p class="footer-stack">C# · .NET · MAUI · ASP.NET · Blazor</p>
+      </div>
+
+      <!-- Column 2: Navigate -->
+      <div class="footer-col">
+        <h4>Navigate</h4>
+        <a href="index.html" class="footer-link">Home</a>
+        <a href="aboutus.html" class="footer-link">About</a>
+        <a href="experience.html" class="footer-link">Experience</a>
+        <a href="skills.html" class="footer-link">Skills</a>
+        <a href="project.html" class="footer-link">Projects</a>
+        <a href="company.html" class="footer-link">Company</a>
+        <a href="contact.html" class="footer-link">Contact</a>
+      </div>
+
+      <!-- Column 3: Stack pills -->
+      <div class="footer-col">
+        <h4>Stack</h4>
+        <div class="footer-pills">
+          <span class="pill">C#</span><span class="pill">.NET</span><span class="pill">MAUI</span>
+          <span class="pill">ASP.NET</span><span class="pill">Blazor</span><span class="pill">SQL Server</span>
+          <span class="pill">HTML5</span><span class="pill">CSS3</span><span class="pill">JavaScript</span>
+          <span class="pill">Git</span>
+        </div>
+      </div>
+
+      <!-- Column 4: Connect -->
+      <div class="footer-col">
+        <h4>Connect</h4>
+        <p class="footer-contact">engrhassansardarumarzai@gmail.com</p>
+        <p class="footer-contact">Peshawar, Pakistan</p>
+        <div class="footer-social">
+          <a href="https://www.linkedin.com/in/hassan-sardar-umarzai-ab12b8436" target="_blank" rel="noopener" class="social-btn" aria-label="LinkedIn">in</a>
+          <a href="https://github.com/EngineerHassanSardar" target="_blank" rel="noopener" class="social-btn" aria-label="GitHub">gh</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom container">
+      <p>© 2026 Hassan Sardar Umarzai. All rights reserved.</p>
+      <p>Built with HTML, CSS &amp; JS</p>
+    </div>
+  </footer>
+
+  <!-- Shared script -->
+  <script src="script.js"></script>
+</body>
+</html>
